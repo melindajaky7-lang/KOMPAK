@@ -71,26 +71,28 @@
             color: #ffd43b;
         }
 
-        /* BERANDA */
-        .hero {
-            min-height: 470px;
+        /* BERANDA DENGAN BACKGROUND FOTO KEGIATAN KOMPAK */
+      .hero {
+    min-height: 470px;
 
-            background:
-                linear-gradient(
-                    rgba(2, 35, 75, 0.82),
-                    rgba(2, 35, 75, 0.82)
-                ),
-                url("https://images.unsplash.com/photo-1509228468518-180dd4864904")
-                center/cover;
+    background-image:
+        linear-gradient(
+            rgba(2, 35, 75, 0.35),
+            rgba(2, 35, 75, 0.50)
+        ),
+        url("foto4.jpg.jpeg");
 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: white;
-            padding: 60px 20px;
-        }
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
+}
         .hero-content {
             max-width: 900px;
         }
@@ -147,6 +149,7 @@
             margin: -12px auto 30px;
             border-radius: 5px;
         }
+	
 
         /* TENTANG KOMPAK */
         .tentang {
@@ -307,8 +310,1104 @@
             }
 
         }
+<head>
+    <title>KOMPAK Volume 1 Tahun 2026</title>
+
+    <style>
+
+        /* CSS WEBSITE LAMA KAMU */
+
+        /* CSS DOKUMENTASI KOMPAK */
+        #dokumentasi {
+            padding: 60px 30px;
+            background: #f0f5fc;
+            text-align: center;
+        }
+
+        .galeri-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .galeri-item {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .galeri-item img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+        }
+
+/* TENTANG KOMPAK VOLUME 1 */
+#tentang-kompak {
+    padding: 70px 30px;
+    background: linear-gradient(135deg, #eef5ff, #ffffff);
+    color: #333;
+}
+
+/* JUDUL */
+.tentang-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+
+.label-kompak {
+    display: inline-block;
+    background: #dceaff;
+    color: #06477e;
+    padding: 9px 20px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.tentang-header h2 {
+    font-size: 34px;
+    color: #023b70;
+    margin-bottom: 15px;
+}
+
+.tentang-header p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #5b6470;
+}
+
+/* KONTEN UTAMA */
+.tentang-content {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 30px;
+    max-width: 1150px;
+    margin: auto;
+}
+
+/* CERITA KOMPAK */
+.tentang-cerita {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0, 40, 90, 0.09);
+    border-left: 5px solid #e5ad32;
+}
+
+.tentang-cerita h3,
+.tujuan-kompak h3 {
+    color: #023b70;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.tentang-cerita p {
+    font-size: 15px;
+    line-height: 1.9;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* TUJUAN KOMPAK */
+.tujuan-kompak {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0, 40, 90, 0.09);
+}
+
+.tujuan-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 23px;
+}
+
+.tujuan-item span {
+    min-width: 42px;
+    height: 42px;
+    background: #06477e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.tujuan-item h4 {
+    color: #023b70;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.tujuan-item p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* INFORMASI KEGIATAN */
+.informasi-kompak {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    max-width: 1150px;
+    margin: 40px auto;
+}
+
+.info-box {
+    background: #06477e;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.info-box:hover {
+    transform: translateY(-6px);
+    background: #02345d;
+}
+
+.info-box span {
+    font-size: 30px;
+}
+
+.info-box h4 {
+    margin: 12px 0 8px;
+    color: #ffd66b;
+    font-size: 17px;
+}
+
+.info-box p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* PENYELENGGARA */
+.penyelenggara-kompak {
+    max-width: 800px;
+    margin: 45px auto 0;
+    padding: 30px;
+    text-align: center;
+    background: #fff;
+    border-radius: 18px;
+    border-bottom: 5px solid #e5ad32;
+    box-shadow: 0 5px 20px rgba(0, 40, 90, 0.09);
+}
+
+.penyelenggara-kompak h3 {
+    color: #023b70;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.penyelenggara-kompak p {
+    color: #555;
+    line-height: 1.9;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* TAMPILAN HP DAN TABLET */
+@media (max-width: 800px) {
+    .tentang-content {
+        grid-template-columns: 1fr;
+    }
+
+    .informasi-kompak {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tentang-header h2 {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 500px) {
+    #tentang-kompak {
+        padding: 45px 15px;
+    }
+
+    .informasi-kompak {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* DAFTAR SEKOLAH PESERTA */
+#sekolah-peserta {
+    padding: 70px 30px;
+    background: linear-gradient(135deg, #edf4ff, #ffffff);
+}
+
+/* JUDUL SEKOLAH */
+.sekolah-header {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 45px;
+}
+
+.sekolah-label {
+    display: inline-block;
+    background: #dceaff;
+    color: #06477e;
+    padding: 9px 20px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.sekolah-header h2 {
+    color: #023b70;
+    font-size: 32px;
+    margin: 18px 0 12px;
+}
+
+.sekolah-header p {
+    color: #5b6470;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* SUSUNAN KARTU SEKOLAH */
+.sekolah-container {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    max-width: 1150px;
+    margin: auto;
+}
+
+/* KARTU SEKOLAH */
+.sekolah-card {
+    position: relative;
+    background: white;
+    padding: 35px 20px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0, 40, 90, 0.10);
+    border-bottom: 4px solid #e5ad32;
+    transition: 0.3s ease;
+    overflow: hidden;
+}
+
+.sekolah-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 40, 90, 0.17);
+}
+
+/* NOMOR SEKOLAH */
+.nomor-sekolah {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    background: #06477e;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* IKON SEKOLAH */
+.sekolah-icon {
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+/* NAMA SEKOLAH */
+.sekolah-card h3 {
+    color: #023b70;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.sekolah-card p {
+    color: #777;
+    font-size: 14px;
+}
+
+/* BAGIAN PENUTUP */
+.sekolah-penutup {
+    max-width: 850px;
+    margin: 45px auto 0;
+    padding: 30px;
+    background: #06477e;
+    color: white;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.sekolah-penutup h3 {
+    color: #ffd66b;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.sekolah-penutup p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* TAMPILAN HP */
+@media (max-width: 600px) {
+    #sekolah-peserta {
+        padding: 45px 15px;
+    }
+
+    .sekolah-header h2 {
+        font-size: 25px;
+    }
+
+    .sekolah-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* BAGIAN MATEMATIKA */
+#matematika {
+    padding: 70px 30px;
+    background: linear-gradient(135deg, #eaf3ff, #ffffff);
+}
+
+/* JUDUL MATEMATIKA */
+.matematika-header {
+    max-width: 850px;
+    margin: 0 auto 45px;
+    text-align: center;
+}
+
+.matematika-label {
+    display: inline-block;
+    background: #dceaff;
+    color: #06477e;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.matematika-header h2 {
+    color: #023b70;
+    font-size: 32px;
+    margin: 20px 0 15px;
+    line-height: 1.4;
+}
+
+.matematika-header p {
+    color: #5b6470;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* KONTEN MATEMATIKA */
+.matematika-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 1150px;
+    margin: auto;
+}
+
+/* ILUSTRASI */
+.matematika-ilustrasi {
+    background: linear-gradient(135deg, #06477e, #0876bd);
+    border-radius: 20px;
+    padding: 35px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 350px;
+    box-shadow: 0 8px 22px rgba(0, 50, 100, 0.15);
+}
+
+.simbol-matematika {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.simbol-matematika span {
+    background: rgba(255,255,255,0.17);
+    border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-size: 35px;
+}
+
+.matematika-pesan {
+    text-align: center;
+}
+
+.matematika-pesan h3 {
+    color: #ffd66b;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.matematika-pesan p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* KARTU PENJELASAN */
+.matematika-penjelasan {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.matematika-card {
+    background: white;
+    padding: 22px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 40, 90, 0.08);
+    border-left: 5px solid #e5ad32;
+    transition: 0.3s ease;
+}
+
+.matematika-card:hover {
+    transform: translateX(6px);
+}
+
+.matematika-card span {
+    font-size: 30px;
+}
+
+.matematika-card h3 {
+    color: #023b70;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.matematika-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* KALIMAT PENUTUP */
+.matematika-penutup {
+    max-width: 1000px;
+    margin: 45px auto 0;
+    padding: 30px;
+    background: #fff;
+    border-radius: 18px;
+    text-align: center;
+    border-bottom: 5px solid #e5ad32;
+    box-shadow: 0 5px 18px rgba(0, 40, 90, 0.08);
+}
+
+.matematika-penutup h3 {
+    color: #06477e;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.matematika-penutup p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* TAMPILAN TABLET DAN HP */
+@media (max-width: 800px) {
+    .matematika-content {
+        grid-template-columns: 1fr;
+    }
+
+    .matematika-header h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 500px) {
+    #matematika {
+        padding: 45px 15px;
+    }
+
+    .matematika-ilustrasi {
+        padding: 25px 15px;
+    }
+
+    .matematika-penutup h3 {
+        font-size: 19px;
+    }
+}
+
+#website-prodi {
+    padding: 70px 25px;
+    background: linear-gradient(135deg, #023b70, #0876bd);
+    text-align: center;
+}
+
+.prodi-container {
+    max-width: 850px;
+    margin: auto;
+    padding: 45px 30px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+}
+
+.prodi-icon {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.prodi-label {
+    display: inline-block;
+    color: #06477e;
+    background: #e3efff;
+    padding: 9px 18px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.prodi-container h2 {
+    color: #023b70;
+    font-size: 28px;
+    margin: 20px 0 15px;
+}
+
+.prodi-container p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.tombol-prodi {
+    display: inline-block;
+    background: #e5ad32;
+    color: #023b70;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.tombol-prodi:hover {
+    background: #06477e;
+    color: white;
+    transform: translateY(-4px);
+}
+
+@media (max-width: 600px) {
+    .prodi-container h2 {
+        font-size: 22px;
+    }
+
+    .prodi-container {
+        padding: 35px 20px;
+    }
+}
+
+
+/* BAGIAN MEDIA SOSIAL */
+#media-sosial {
+    padding: 75px 30px;
+    background: linear-gradient(135deg, #eef5ff, #ffffff);
+}
+
+.sosmed-header {
+    max-width: 800px;
+    margin: 0 auto 45px;
+    text-align: center;
+}
+
+.sosmed-label {
+    display: inline-block;
+    background: #dceaff;
+    color: #06477e;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.sosmed-header h2 {
+    color: #023b70;
+    font-size: 32px;
+    margin: 20px 0 15px;
+}
+
+.sosmed-header p {
+    color: #5b6470;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.sosmed-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.sosmed-card {
+    background: white;
+    padding: 30px 18px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0,40,90,0.10);
+    transition: 0.3s ease;
+    border-bottom: 5px solid #06477e;
+}
+
+.sosmed-card:hover {
+    transform: translateY(-9px);
+    box-shadow: 0 10px 25px rgba(0,40,90,0.18);
+}
+
+.sosmed-icon {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.sosmed-card h3 {
+    color: #023b70;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.sosmed-card p {
+    color: #666;
+    font-size: 13px;
+    line-height: 1.6;
+    min-height: 42px;
+    overflow-wrap: anywhere;
+    margin-bottom: 20px;
+}
+
+.sosmed-card a {
+    display: inline-block;
+    padding: 11px 17px;
+    border-radius: 25px;
+    background: #06477e;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.sosmed-card a:hover {
+    background: #e5ad32;
+    color: #023b70;
+}
+
+/* WARNA IKON MEDIA SOSIAL */
+.tiktok .sosmed-icon {
+    background: #111111;
+}
+
+.instagram .sosmed-icon {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf);
+}
+
+.facebook .sosmed-icon {
+    background: #1877f2;
+}
+
+.youtube .sosmed-icon {
+    background: #ff0000;
+}
+
+/* TAMPILAN HP DAN TABLET */
+@media (max-width: 900px) {
+    .sosmed-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    #media-sosial {
+        padding: 45px 15px;
+    }
+
+    .sosmed-container {
+        grid-template-columns: 1fr;
+    }
+
+    .sosmed-header h2 {
+        font-size: 25px;
+    }
+}
+
+
+/* MOTIVASI PESAN */
+.matematika-pesan {
+    text-align: center;
+    background: linear-gradient(145deg, #023b70, #0876bd);
+    padding: 35px 30px;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 40, 90, 0.20);
+}
+
+.matematika-pesan::before {
+    content: "＋";
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 90px;
+    color: rgba(255,255,255,0.08);
+}
+
+.matematika-pesan::after {
+    content: "÷";
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    font-size: 80px;
+    color: rgba(255,255,255,0.08);
+}
+
+.motivasi-label {
+    display: inline-block;
+    background: rgba(255,255,255,0.17);
+    color: #ffdf83;
+    padding: 9px 18px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.motivasi-icon {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.matematika-pesan h3 {
+    color: #ffdf83;
+    font-size: 25px;
+    margin-bottom: 18px;
+    line-height: 1.4;
+}
+
+.matematika-pesan p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 22px;
+}
+
+.motivasi-kutipan {
+    background: rgba(255,255,255,0.13);
+    border-left: 4px solid #ffdf83;
+    border-radius: 10px;
+    padding: 18px;
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+.motivasi-semangat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    background: #ffdf83;
+    color: #023b70;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.motivasi-semangat span {
+    font-size: 22px;
+}
+
+@media (max-width: 500px) {
+    .matematika-pesan {
+        padding: 30px 18px;
+    }
+
+    .matematika-pesan h3 {
+        font-size: 21px;
+    }
+
+    .motivasi-semangat {
+        font-size: 12px;
+    }
+}
+ 
+/* =================================
+   BAGIAN NARASUMBER KOMPAK
+================================= */
+
+#narasumber-kompak {
+    padding: 75px 30px;
+    background: linear-gradient(
+        135deg,
+        #eaf3ff,
+        #ffffff,
+        #f3f7ff
+    );
+}
+
+/* JUDUL */
+.narasumber-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 45px;
+}
+
+.narasumber-label {
+    display: inline-block;
+    background: #dceaff;
+    color: #06477e;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.narasumber-header h2 {
+    color: #023b70;
+    font-size: 32px;
+    margin: 20px 0 15px;
+}
+
+.narasumber-header p {
+    color: #5b6470;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* KARTU UTAMA */
+.narasumber-card {
+    max-width: 1050px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.85fr 1.3fr;
+    background: white;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,40,90,0.13);
+    border-bottom: 5px solid #e5ad32;
+    transition: 0.3s ease;
+}
+
+.narasumber-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 13px 30px rgba(0,40,90,0.20);
+}
+
+/* FOTO */
+.narasumber-foto {
+    position: relative;
+    min-height: 430px;
+    background: #dceaff;
+    overflow: hidden;
+}
+
+.narasumber-foto img {
+    width: 100%;
+    height: 100%;
+    min-height: 430px;
+    object-fit: cover;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.narasumber-foto:hover img {
+    transform: scale(1.04);
+}
+
+.foto-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(
+        transparent,
+        rgba(0,30,65,0.90)
+    );
+}
+
+.foto-caption span {
+    font-size: 25px;
+}
+
+.foto-caption p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* INFORMASI */
+.narasumber-info {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.narasumber-tag {
+    display: inline-block;
+    width: fit-content;
+    background: #fff1cc;
+    color: #8a5a00;
+    padding: 9px 17px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.narasumber-info h3 {
+    color: #023b70;
+    font-size: 27px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.jabatan-narasumber {
+    color: #a77816;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.garis-narasumber {
+    width: 65px;
+    height: 4px;
+    background: #e5ad32;
+    border-radius: 10px;
+    margin: 22px 0;
+}
+
+.narasumber-info h4 {
+    color: #023b70;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.narasumber-deskripsi {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+/* HASIL WAWANCARA */
+.wawancara-box {
+    margin-top: 25px;
+    padding: 22px;
+    background: #edf4ff;
+    border-left: 5px solid #e5ad32;
+    border-radius: 12px;
+}
+
+.kutip-icon {
+    color: #e5ad32;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.wawancara-box h4 {
+    color: #06477e;
+    margin: 5px 0 10px;
+}
+
+.wawancara-box p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* FOOTER KARTU */
+.narasumber-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    color: #06477e;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+    .narasumber-card {
+        grid-template-columns: 1fr;
+    }
+
+    .narasumber-foto {
+        min-height: 380px;
+    }
+
+    .narasumber-foto img {
+        height: 380px;
+        min-height: 380px;
+    }
+
+    .narasumber-info {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    #narasumber-kompak {
+        padding: 45px 15px;
+    }
+
+    .narasumber-header h2 {
+        font-size: 25px;
+    }
+
+    .narasumber-info {
+        padding: 25px 20px;
+    }
+
+    .narasumber-info h3 {
+        font-size: 22px;
+    }
+}
 
     </style>
+</head>
+
+  	</style>
 </head>
 
 <body>
@@ -317,6 +1416,7 @@
     <header>
 
         <h1>KOMPAK VOLUME 1</h1>
+
 
         <p>Kompetisi Matematika Pelajar Kepulauan</p>
 
@@ -369,80 +1469,285 @@
     </div>
 
 
-    <!-- TENTANG KEGIATAN -->
-    <section class="tentang" id="tentang">
+    
+<!-- BAGIAN TENTANG KOMPAK -->
+<section id="tentang-kompak">
 
-        <h2 class="judul">Tentang KOMPAK Volume 1</h2>
-
-        <div class="garis"></div>
-
+    <div class="tentang-header">
+        <span class="label-kompak">KOMPETISI MATEMATIKA PELAJAR KEPULAUAN</span>
+        <h2>Tentang KOMPAK Volume 1</h2>
         <p>
-            KOMPAK merupakan singkatan dari Kompetisi Matematika
-            Pelajar Kepulauan. KOMPAK Volume 1 merupakan kegiatan
-            yang diselenggarakan oleh Program Studi Pendidikan
-            Matematika PSDKU Universitas Pattimura Kabupaten
-            Maluku Barat Daya dengan penuh antusiasme.
+            Mengenal lebih dekat kegiatan Kompetisi Matematika
+            Pelajar Kepulauan yang menjadi wadah bagi pelajar
+            untuk mengembangkan kemampuan dan kecintaan terhadap matematika.
         </p>
+    </div>
 
-        <p>
-            Kegiatan ini merupakan kegiatan tahunan yang
-            melibatkan peserta dari tingkat Sekolah Menengah
-            Pertama (SMP). KOMPAK hadir sebagai wadah bagi
-            para pelajar untuk mengembangkan kemampuan,
-            pengetahuan, dan keterampilan dalam bidang matematika.
-        </p>
+    <div class="tentang-content">
 
-	<P>
+        <div class="tentang-cerita">
+            <h3>Apa Itu KOMPAK?</h3>
+
+            <p>
+                KOMPAK merupakan singkatan dari Kompetisi Matematika
+                Pelajar Kepulauan. Kegiatan ini diselenggarakan oleh
+                Program Studi Pendidikan Matematika PSDKU Universitas
+                Pattimura Kabupaten Maluku Barat Daya.
+            </p>
+
+            <p>
+                KOMPAK Volume 1 dilaksanakan pada Jumat, 20 November
+                2026, bertempat di Gedung Aula PSDKU Universitas
+                Pattimura Kabupaten Maluku Barat Daya. Kegiatan ini
+                melibatkan para pelajar tingkat Sekolah Menengah
+                Pertama (SMP) sebagai peserta kompetisi.
+            </p>
+
+            <p>
+                Kegiatan ini bertujuan untuk mendorong minat dan
+                semangat belajar matematika di kalangan pelajar,
+                sekaligus membuktikan bahwa matematika bukan hanya
+                mata pelajaran yang sulit, tetapi juga menarik,
+                menyenangkan, dan menantang.
+            </p>
+        </div>
+
+        <div class="tujuan-kompak">
+            <h3>Tujuan Kegiatan</h3>
+
+            <div class="tujuan-item">
+                <span>01</span>
+                <div>
+                    <h4>Meningkatkan Minat Belajar</h4>
+                    <p>
+                        Mendorong pelajar agar lebih tertarik
+                        dan bersemangat dalam mempelajari matematika.
+                    </p>
+                </div>
+            </div>
+
+            <div class="tujuan-item">
+                <span>02</span>
+                <div>
+                    <h4>Mengembangkan Kemampuan</h4>
+                    <p>
+                        Melatih kemampuan berpikir kritis,
+                        kreatif, dan logis melalui kompetisi matematika.
+                    </p>
+                </div>
+            </div>
+
+            <div class="tujuan-item">
+                <span>03</span>
+                <div>
+                    <h4>Membangun Semangat Berkompetisi</h4>
+                    <p>
+                        Memberikan kesempatan kepada pelajar
+                        untuk menunjukkan kemampuan dan prestasinya.
+                    </p>
+                </div>
+            </div>
+
+            <div class="tujuan-item">
+                <span>04</span>
+                <div>
+                    <h4>Wadah Mencerdaskan Generasi</h4>
+                    <p>
+                        Menjadi wadah positif untuk meningkatkan
+                        kualitas pendidikan di Maluku Barat Daya.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="informasi-kompak">
+        <div class="info-box">
+            <span>📅</span>
+            <h4>Hari/Tanggal</h4>
+            <p>Jumat, 20 November 2026</p>
+        </div>
+
+        <div class="info-box">
+            <span>⏰</span>
+            <h4>Waktu</h4>
+            <p>08.00 WIT</p>
+        </div>
+
+        <div class="info-box">
+            <span>📍</span>
+            <h4>Tempat</h4>
+            <p>Gedung Aula PSDKU Universitas Pattimura, MBD</p>
+        </div>
+
+        <div class="info-box">
+            <span>🎓</span>
+            <h4>Peserta</h4>
+            <p>Siswa Tingkat SMP</p>
+        </div>
+    </div>
+
+   
+</section>
+
 	   
-<!-- DAFTAR SEKOLAH PESERTA -->
-<section class="peserta" id="peserta">
 
-    <h2 class="judul">Daftar Sekolah Peserta</h2>
-    <div class="garis"></div>
+<!-- BAGIAN DAFTAR SEKOLAH PESERTA -->
+<section id="sekolah-peserta">
 
-    <div class="daftar-peserta">
+    <div class="sekolah-header">
+        <span class="sekolah-label">
+            KOMPAK VOLUME 1 TAHUN 2026
+        </span>
+
+        <h2>Daftar Sekolah Peserta</h2>
 
         <p>
-            Kegiatan KOMPAK Volume 1 melibatkan 53 para pelajar
-            dari tingkat Sekolah Menengah Pertama (SMP)
-            di wilayah Maluku Barat Daya.
+            Berikut merupakan sekolah-sekolah yang turut
+            berpartisipasi dalam Kompetisi Matematika
+            Pelajar Kepulauan (KOMPAK) Volume 1.
         </p>
+    </div>
 
-        <br>
+    <div class="sekolah-container">
 
-        <h3>Asal Sekolah Peserta:</h3>
+        <div class="sekolah-card">
+            <div class="nomor-sekolah">01</div>
+            <div class="sekolah-icon">🏫</div>
+            <h3>SMP Negeri Tiakur</h3>
+            <p>Peserta KOMPAK Volume 1</p>
+        </div>
 
-        <ol>
-            <li>SMP NEGERI TIAKUR</li>
-            <li>SMP NEGERI 2 TIAKUR</li>
-            <li>SMP PGRI KLIS</li>
-            <li>SMP NEGERI WEET</li>
-            <li>SMP NEGERI POLIUW</li>
-	    <li>SMP NEGERI 1 ROTNAMA</LI>
-        </ol>
+        <div class="sekolah-card">
+            <div class="nomor-sekolah">02</div>
+            <div class="sekolah-icon">🏫</div>
+            <h3>SMP Negeri 2 Tiakur</h3>
+            <p>Peserta KOMPAK Volume 1</p>
+        </div>
 
+        <div class="sekolah-card">
+            <div class="nomor-sekolah">03</div>
+            <div class="sekolah-icon">🏫</div>
+            <h3>SMP PGRI Klis</h3>
+            <p>Peserta KOMPAK Volume 1</p>
+        </div>
+
+        <div class="sekolah-card">
+            <div class="nomor-sekolah">04</div>
+            <div class="sekolah-icon">🏫</div>
+            <h3>SMP Negeri Weet</h3>
+            <p>Peserta KOMPAK Volume 1</p>
+        </div>
+
+        <div class="sekolah-card">
+            <div class="nomor-sekolah">05</div>
+            <div class="sekolah-icon">🏫</div>
+            <h3>SMP Negeri Poliuw</h3>
+            <p>Peserta KOMPAK Volume 1</p>
+        </div>
+
+        <div class="sekolah-card">
+            <div class="nomor-sekolah">06</div>
+            <div class="sekolah-icon">🏫</div>
+            <h3>SMP Negeri 1 Rotnama</h3>
+            <p>Peserta KOMPAK Volume 1</p>
+        </div>
+
+    </div>
+
+    <div class="sekolah-penutup">
+        <h3>Terima Kasih atas Partisipasinya!</h3>
+        <p>
+            Apresiasi kepada seluruh sekolah yang telah
+            berpartisipasi dan turut menyukseskan kegiatan
+            KOMPAK Volume 1 Tahun 2026.
+        </p>
+    </div>
+
+</section>
+       
+<!-- BAGIAN MATEMATIKA SERING DIANGGAP SULIT -->
+<section id="matematika">
+
+    <div class="matematika-header">
+        <span class="matematika-label">
+            BELAJAR MATEMATIKA DENGAN MENYENANGKAN
+        </span>
+
+        <h2>Matematika Sering Dianggap Sulit, Padahal Menyenangkan!</h2>
+
+        <p>
+            Banyak pelajar menganggap matematika sebagai pelajaran
+            yang sulit dan membingungkan. Namun, dengan semangat,
+            latihan, dan cara belajar yang tepat, matematika dapat
+            menjadi pelajaran yang menarik dan menyenangkan.
+        </p>
+    </div>
+
+    <div class="matematika-content">
+
+        <div class="matematika-ilustrasi">
+            <div class="simbol matematika">
+                <span>➗</span>
+                <span>➕</span>
+                <span>✖️</span>
+                <span>➖</span>
+            </div>
+
+            <div class="matematika-pesan">
+                <h3>Matematika Itu Menyenangkan!</h3>
+                <p>
+                    Jangan takut mencoba, jangan takut salah.
+                    Setiap soal adalah kesempatan untuk belajar
+                    dan menemukan hal baru.
+                </p>
+            </div>
+        </div>
+
+        <div class="matematika-penjelasan">
+
+            <div class="matematika-card">
+                <span>🧠</span>
+                <h3>Melatih Cara Berpikir</h3>
+                <p>
+                    Matematika membantu kita mengembangkan
+                    kemampuan berpikir logis, kritis, dan kreatif.
+                </p>
+            </div>
+
+            <div class="matematika-card">
+                <span>💡</span>
+                <h3>Belajar Memecahkan Masalah</h3>
+                <p>
+                    Melalui matematika, kita belajar mencari
+                    solusi dan menyelesaikan berbagai persoalan.
+                </p>
+            </div>
+
+            <div class="matematika-card">
+                <span>🏆</span>
+                <h3>Membangun Kepercayaan Diri</h3>
+                <p>
+                    Setiap soal yang berhasil diselesaikan
+                    menjadi pengalaman dan motivasi untuk terus belajar.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="matematika-penutup">
+        <h3>"Matematika Bukan untuk Ditakuti, Tetapi untuk Dipelajari!"</h3>
+        <p>
+            Melalui KOMPAK Volume 1, mari tumbuhkan semangat,
+            keberanian, dan kecintaan terhadap matematika.
+        </p>
     </div>
 
 </section>
 
-        <p>
-            Matematika sering kali dianggap sebagai mata pelajaran
-            yang sulit dan kurang menarik oleh sebagian pelajar.
-            Oleh karena itu, melalui kegiatan KOMPAK, para pelajar
-            diberikan kesempatan untuk belajar, berlatih,
-            menunjukkan kemampuan, dan memperoleh pengalaman
-            melalui kompetisi yang sehat dan edukatif.
-        </p>
-
-        <p>
-            Dengan adanya kegiatan ini, diharapkan muncul semangat
-            baru bagi anak-anak di Maluku Barat Daya untuk lebih
-            mengenal, memahami, dan mencintai matematika.
-            KOMPAK bukan hanya menjadi ajang perlombaan,
-            tetapi juga menjadi salah satu wadah untuk
-            mencerdaskan generasi muda melalui pendidikan
-            matematika.
-        </p>
 	
 	  
     </section>
@@ -551,128 +1856,236 @@
     </section>
 
 
-    <!-- INFORMASI PELAKSANAAN -->
-    <section class="informasi" id="informasi">
+    
+<div class="matematika-pesan">
+    <span class="motivasi-label">✨ PESAN MOTIVASI</span>
 
-        <h2 class="judul">Informasi Pelaksanaan Kegiatan</h2>
+    <div class="motivasi-icon">🏆</div>
 
-        <div class="garis"></div>
+    <h3>Jangan Takut Belajar Matematika!</h3>
 
-        <div class="info-box">
+    <p>
+        Setiap soal memiliki tantangan dan setiap tantangan
+        memberikan kesempatan untuk belajar. Jangan takut
+        mencoba, jangan mudah menyerah, dan teruslah berusaha
+        untuk meraih prestasi.
+    </p>
 
-            <p>
-                <strong>Nama Kegiatan</strong>
-                : KOMPAK Volume 1
-            </p>
+    <div class="motivasi-kutipan">
+        "Kesuksesan dimulai dari keberanian untuk mencoba
+        dan semangat untuk terus belajar."
+    </div>
 
-            <p>
-                <strong>Kepanjangan</strong>
-                : Kompetisi Matematika Pelajar Kepulauan
-            </p>
+    <div class="motivasi-semangat">
+        <span>💡</span>
+        <strong>Terus Belajar, Terus Berkarya, Raih Prestasi!</strong>
+    </div>
+</div>
 
-            <p>
-                <strong>Penyelenggara</strong>
-                : Program Studi Pendidikan Matematika
-            </p>
-
-            <p>
-                <strong>Hari/Tanggal</strong>
-                : Jumat, 20 November 2026
-            </p>
-
-            <p>
-                <strong>Waktu</strong>
-                : 08.00 WIT
-            </p>
-
-            <p>
-                <strong>Tempat</strong>
-                : Gedung Aula PSDKU Universitas Pattimura
-                Kabupaten Maluku Barat Daya
-            </p>
-
-            <p>
-                <strong>Peserta</strong>
-                : Pelajar tingkat Sekolah Menengah Pertama (SMP)
-            </p>
-
-            <p>
-                <strong>Pelaksanaan</strong>
-                : Kegiatan tahunan
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- PESAN MOTIVASI -->
-    <section class="motivasi">
-
-        <h2>Matematika untuk Generasi Cerdas</h2>
-
-        <p>
-            Jangan takut belajar matematika, karena setiap
-            tantangan adalah kesempatan untuk berkembang.
-            Melalui KOMPAK, mari kita bangun semangat belajar,
-            berani mencoba, saling berkompetisi secara sehat,
-            dan bersama-sama menciptakan generasi muda
-            Maluku Barat Daya yang cerdas dan berprestasi.
-        </p>
-
-    </section>
-
-
-    <!-- PENYELENGGARA -->
-    <section class="penyelenggara" id="penyelenggara">
-
-        <h2>Penyelenggara Kegiatan</h2>
-
-        <p>
-            Program Studi Pendidikan Matematika
-        </p>
-
-        <p>
-            PSDKU Universitas Pattimura
-        </p>
-
-        <p>
-            Kabupaten Maluku Barat Daya
-        </p>
-
-    </section>
-
-
-    <!-- FOOTER -->
-    <footer>
-
-        <h3>KOMPAK VOLUME 1 TAHUN 2026</h3>
-
-        <p>Kompetisi Matematika Pelajar Kepulauan</p>
-
-        <p>
-            Program Studi Pendidikan Matematika
-            PSDKU Universitas Pattimura
-        </p>
-
-        <p>Kabupaten Maluku Barat Daya</p>
-
-        <p style="margin-top: 12px;">
-            © 2026 KOMPAK. Semua Hak Dilindungi.
-        </p>
-
-    </footer>
 
 <!-- WEBSITE PROGRAM STUDI -->
 <section class="website-prodi" id="website-prodi">
 
-    <h2>Website Program Studi Pendidikan Matematika</h2>
+    
 
-    <img
-        src="KOMPAK 1jpg"
-	src="KOMPAK 2jpg"
-	src="KOMPAK 3jpg"
-            >
+<!-- BAGIAN DOKUMENTASI KOMPAK -->
+<section id="dokumentasi">
+    <div class="judul-dokumentasi">
+        <h2>Dokumentasi Kegiatan KOMPAK</h2>
+        <p>
+            Berikut adalah beberapa momen kegiatan
+            Kompetisi Matematika Pelajar Kepulauan
+            (KOMPAK) Volume 1 Tahun 2026.
+        </p>
+    </div>
+
+    <div class="galeri-container">
+
+        <!-- FOTO 1 -->
+        <div class="galeri-item">
+            <img src="foto1.jpg.jpg"
+                 alt="Foto bersama para pemenang Medali Perak">
+
+            <div class="galeri-info">
+                <h3>Foto Bersama Pemenang Medali Perak</h3>
+                <p>
+                    Dokumentasi bersama para peserta yang berhasil
+                    meraih penghargaan Medali Perak dalam
+                    KOMPAK Volume 1.
+                </p>
+            </div>
+        </div>
+
+        <!-- FOTO 2 -->
+        <div class="galeri-item">
+            <img src="foto2.jpg.jpg"
+                 alt="Penyerahan hadiah kepada pemenang Medali Emas">
+
+            <div class="galeri-info">
+                <h3>Penyerahan Hadiah Medali Emas</h3>
+                <p>
+                    Momen penyerahan hadiah kepada peserta
+                    yang berhasil meraih Medali Emas dalam
+                    kompetisi KOMPAK Volume 1.
+                </p>
+            </div>
+        </div>
+
+        <!-- FOTO 3 -->
+        <div class="galeri-item">
+            <img src="foto3.jpg.jpg"
+                 alt="Penyerahan piala bergilir kepada guru SMP Negeri Tiakur">
+
+            <div class="galeri-info">
+                <h3>Penyerahan Piala Bergilir</h3>
+                <p>
+                    Penyerahan piala bergilir kepada perwakilan
+                    guru SMP Negeri Tiakur sebagai bentuk
+                    penghargaan dalam kegiatan KOMPAK Volume 1.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- BAGIAN NARASUMBER WAWANCARA -->
+<section id="narasumber-kompak">
+
+    <div class="narasumber-header">
+        <span class="narasumber-label">
+            🎤 TOKOH DAN INSPIRASI
+        </span>
+
+        <h2>Narasumber Kegiatan KOMPAK</h2>
+
+        <p>
+            Mengenal lebih dekat pandangan dan pengalaman
+            narasumber mengenai pelaksanaan Kompetisi
+            Matematika Pelajar Kepulauan (KOMPAK) Volume 1.
+        </p>
+    </div>
+
+    <div class="narasumber-card">
+
+        <div class="narasumber-foto">
+            <img src="FOTO PAKJOHN..png"
+                 alt="Foto Bapak John Nandito Lekitoo">
+
+            <div class="foto-caption">
+                <p>Narasumber KOMPAK Volume 1</p>
+            </div>
+        </div>
+
+        <div class="narasumber-info">
+
+            <span class="narasumber-tag">
+                NARASUMBER WAWANCARA
+            </span>
+
+            <h3>John Nandito Lekitoo, S.Pd., M.Pd.</h3>
+
+            <p class="jabatan-narasumber">
+                Narasumber Kegiatan KOMPAK Volume 1
+            </p>
+
+            <div class="garis-narasumber"></div>
+
+            <h4>Profil Narasumber</h4>
+
+            <p class="narasumber-deskripsi">
+                Pak John Nandito Lekitoo, S.Pd., M.Pd.
+                merupakan narasumber dalam kegiatan Kompetisi
+                Matematika Pelajar Kepulauan (KOMPAK) Volume 1
+                yang diselenggarakan oleh Program Studi
+                Pendidikan Matematika PSDKU Universitas
+                Pattimura Kabupaten Maluku Barat Daya.
+  
+</section>
+
+<section id="website-prodi">
+    <div class="prodi-container">
+        <div class="prodi-icon">🎓</div>
+
+        <span class="prodi-label">KUNJUNGI WEBSITE RESMI</span>
+
+        <h2>Program Studi Pendidikan Matematika</h2>
+
+        <p>
+            Kenali lebih dekat Program Studi Pendidikan Matematika
+            PSDKU Universitas Pattimura Kabupaten Maluku Barat Daya.
+            Dapatkan informasi mengenai program studi, kegiatan,
+            serta berbagai informasi akademik lainnya melalui website resmi.
+        </p>
+
+        <a href="https://matek-mbd.psdku.unpatti.ac.id/"
+           target="_blank"
+           class="tombol-prodi">
+            Kunjungi Website Prodi ↗
+        </a>
+    </div>
+</section>	
+
+<section id="media-sosial">
+    <div class="sosmed-header">
+        <span class="sosmed-label">IKUTI MEDIA SOSIAL KAMI</span>
+        <h2>Terhubung Bersama Kami!</h2>
+        <p>
+            Ikuti berbagai informasi, kegiatan, dokumentasi,
+            dan aktivitas menarik Program Studi Pendidikan
+            Matematika PSDKU Universitas Pattimura melalui
+            media sosial resmi kami.
+        </p>
+    </div>
+
+    <div class="sosmed-container">
+
+        <!-- TikTok -->
+        <div class="sosmed-card tiktok">
+            <div class="sosmed-icon">♪</div>
+            <h3>TikTok</h3>
+            <p>pendidikanmatematikambd</p>
+            <a href="https://www.tiktok.com/@pendidikanmatematikambd"
+               target="_blank">
+                Kunjungi Akun ↗
+            </a>
+        </div>
+
+        <!-- Instagram -->
+        <div class="sosmed-card instagram">
+            <div class="sosmed-icon">◎</div>
+            <h3>Instagram</h3>
+            <p>pendmatekpsdkumbd</p>
+            <a href="https://www.instagram.com/pendmatekpsdkumbd/"
+               target="_blank">
+                Kunjungi Akun ↗
+            </a>
+        </div>
+
+        <!-- Facebook -->
+        <div class="sosmed-card facebook">
+            <div class="sosmed-icon">f</div>
+            <h3>Facebook</h3>
+            <p>Pendmatek Psdku Unpatti Mbd</p>
+            <a href="https://www.facebook.com/search/top?q=Pendmatek%20Psdku%20Unpatti%20Mbd"
+               target="_blank">
+                Kunjungi Akun ↗
+            </a>
+        </div>
+
+        <!-- YouTube -->
+        <div class="sosmed-card youtube">
+            <div class="sosmed-icon">▶</div>
+            <h3>YouTube</h3>
+            <p>Pend.Matematika PSDKU MBD</p>
+            <a href="https://www.youtube.com/results?search_query=Pend.Matematika+PSDKU+MBD"
+               target="_blank">
+                Cari Channel ↗
+            </a>
+        </div>
+
+    </div>
+</section>
 
 </body>
 </html>
